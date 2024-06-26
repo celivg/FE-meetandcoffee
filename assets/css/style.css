@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+.header{
+    background-image: url("../img/bg-hero.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    color: white;
+    text-align: right;
+    text-shadow: 0px 2px 4px black;  /*eje x, eje y, difuminar y color */
+    font-family: 'Open Sans', sans-serif;
+}
+
+.header h1{
+    font-size: 60px;
+}
+
+.header h2{
+    font-size: 40px;
+    font-weight: lighter;
+}
+
+#prox-charla{
+    background-color: #a4452c;
+    color: white;
+    padding: 5rem;
+    /* padding: 3rem todos lados */
+    /* padding: eje-y    eje-x */
+    /* padding: arriba derecha abajo izquierda */
+}
+
+#prox-charla .wrapper{
+    width: 800px;
+    margin: auto;
+}
+
+.wrapper img{
+    width: 25%;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.wrapper .texto{
+    width: 70%;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 4%;
+}
+
+.icono svg {
+    width: 2rem;
+    fill: #695141;
+}
+
+.footer {
+    /*Reglas para la fuente */
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 3rem;
+}
+
+.footer i {
+    font-size: 2rem;
+}
